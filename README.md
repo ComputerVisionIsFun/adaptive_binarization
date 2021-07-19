@@ -1,1 +1,1 @@
-# adaptive_binarization
+# Adaptive Binarization using Integral image

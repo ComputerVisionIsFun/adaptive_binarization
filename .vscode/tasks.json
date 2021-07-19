@@ -1,0 +1,75 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: clang++ 建置使用中檔案",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-std=c++17",
+				"-stdlib=libc++",
+				"-g",
+				"${workspaceFolder}/**.cpp",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}",
+				"-I/opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4/**",
+				"-I/opt/homebrew/Cellar/opencv/4.5.1_3/include/opencv4",
+				"-L/opt/homebrew/Cellar/opencv/4.5.1_3/lib",
+				"-lopencv_highgui",
+				"-lopencv_core",
+				"-lopencv_imgcodecs",
+				"-lopencv_imgproc",
+				"-lopencv_videoio"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "編譯器: /usr/bin/clang++"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: clang 建置使用中檔案",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "編譯器: /usr/bin/clang"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: clang++ 建置使用中檔案",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"detail": "編譯器: /usr/bin/clang++"
+		}
+	]
+}

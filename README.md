@@ -8,7 +8,9 @@ This is an c++ implementation of the article[1] which authors proposed a fast ad
 <img src='https://github.com/ComputerVisionIsFun/adaptive_binarization/blob/main/test_result.png' width=300 style='right'>
 </div>
 
-
+* The function integralImg in the integral_img.cpp computes the integral image of a given graylevel image. 
+* The function adativeBinarization in the adativeBinarization.cpp computes does binarization for a given graylevel image. 
+* main.cpp is the sample code.   
 
 ## Reference 
 

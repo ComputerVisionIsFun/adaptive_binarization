@@ -15,8 +15,9 @@ int main()
 	edge.setTo(0);
 	adativeBinarization(img, edge, 3, 3);
 	
-	imshow("edge", edge);
-	waitKey(0);
+	// imshow("edge", edge);
+	imwrite("test_result.png", edge);
+	// waitKey(0);
 	
 	return 0;
 }

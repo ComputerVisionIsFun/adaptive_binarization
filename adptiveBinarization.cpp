@@ -9,7 +9,6 @@ using namespace cv;
 
 #define bThreshold 0.95
 
-
 void adativeBinarization(Mat &src, Mat &dst, int w, int h) {
 	int rows = src.rows;
 	int cols = src.cols;

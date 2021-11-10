@@ -4,10 +4,10 @@
 This is an c++ implementation of the article[1] which authors proposed a fast adaptive binarizaiton using the integral image[2].   
 
 
-##
+## 
 
 
-
+## 
 
 
 ## Refernce 

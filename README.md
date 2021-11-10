@@ -4,13 +4,9 @@
 This is an c++ implementation of the article[1] which authors proposed a fast adaptive binarizaiton using the integral image[2].   
 
 ## 
-<img align='left' src="https://github.com/ComputerVisionIsFun/adaptive_binarization/blob/main/test.png?raw=true" alt="drawing" width="400"/>
-<img align='right' src="https://github.com/ComputerVisionIsFun/adaptive_binarization/blob/main/test_result.png?raw=true" alt="drawing" width="400"/>
+
 
 ## 
-<br>
-
-
 
 
 ## Refernce 

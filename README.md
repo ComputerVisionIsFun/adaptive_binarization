@@ -1,6 +1,6 @@
-# Adaptive Binarization using Integral image
+# Adaptive Binarization using the Integral image
 
-This is an c++ implementation of the article, 
+This is an c++ implementation of the article[1] which authors proposed a fast adaptive binarizaiton using the integral image[2].   
 
 
 

@@ -1,6 +1,6 @@
 # Adaptive Binarization using the Integral image
 
-## 
+## Introduction
 This is an c++ implementation of the article[1] which authors proposed a fast algorithm for adaptive image binarizaiton using the integral image[2].   
 <div>
 <img src='https://github.com/ComputerVisionIsFun/adaptive_binarization/blob/main/test.png' width=300 style='left'>
